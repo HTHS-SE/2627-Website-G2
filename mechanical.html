@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2.1.5 Class Demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
+                <div class="container"> <!-- Website brand -->
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/droplet.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
+                    </a>
+
+                    <!-- Hamburger Icon-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+                    <div class="collapse navbar-collapse" id="navmenu"> <!-- Links to Hamburger -->
+                        <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing-->
+                            <li class="nav-itm">
+                                <a href="authors.html"
+                                    class="nav-link hover-underline-animation nav-menu-item">About Us</a>
+                            </li>
+                            <li class="nav-itm">
+                                <a href="mechanical.html"
+                                    class="nav-link hover-underline-animation nav-menu-item">Mechanical</a>
+                            </li>
+                            <li class="nav-itm">
+                                <a href="programming.html"
+                                    class="nav-link hover-underline-animation nav-menu-item">Programming</a>
+                            </li>
+                            <li class="nav-itm">
+                                <a href="comp.html"
+                                    class="nav-link hover-underline-animation nav-menu-item">Competitions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        
+
+        <section class="overview text-dark p-2 text-left"> <!-- Overview -->
+            <div class="container">
+                <div class="text-center">
+                    <h1>Mechanical Aspects of Robotics</h1>
+                </div>
+
+                <br><br>
+                <div class="row">
+                    <div class="col-sm-4 p-3">
+                            <img src="img/generic-robot-1.jpg" alt="Water Temperature Graph" class="img-fluid">
+                    </div>
+                    <div class="col-sm-8 p-3">
+                            
+                        <p class="lead overview-font overview-left-padding highlighter">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
+                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                        </p>
+                        
+                    </div>
+                </div>
+                
+                    
+                        
+                    <div class="row">    
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#framework-collapse">
+                            Framework  
+                        </button>
+                        <div class="collapse framework" id="framework-collapse">
+                            <p class="lead overview-font overview-left-padding highlighter">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
+                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                            </p>
+                        </div>
+                    </div>
+                    <br>    
+                    <div class="row">    
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#joints-collapse">
+                            Joints
+                        </button>
+                        <div class="collapse joints" id="joints-collapse">
+                            <p class="lead overview-font overview-left-padding highlighter">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
+                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#degrees-of-freedom-collapse">
+                            Degrees of Freedom
+                        </button>
+                        <div class="collapse joints" id="degrees-of-freedom-collapse">
+                            <p class="lead overview-font overview-left-padding highlighter">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
+                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#torque-systems-collapse">
+                            Torque Systems
+                        </button>
+                        <div class="collapse joints" id="torque-systems-collapse">
+                            <p class="lead overview-font overview-left-padding highlighter">
+                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
+                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                eget nunc.
+                            </p>
+                        </div>
+                    </div>   
+                    
+                
+
+                    
+            </div>
+        </section>
+
+    <!-- Footer -->
+    <footer class="p-5 footer text-light text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; SE 2026 Competitive Robotics</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+            </a>
+        </div>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>
