@@ -167,3 +167,14 @@
 .navbar .nav-itm.dropdown:focus-within > .dropdown-menu {
             display: block;
 }
+
+.mech-button {
+    background-color: #ffffff;
+    color: black;
+    border-color: black;
+
+}
+.mech-button:hover{
+    background-color: rgb(67, 67, 67);
+    border-color: black;
+}
