@@ -131,6 +131,10 @@
     background-color: rgb(84, 84, 84);
     border-color: black;
 }
+.frame {
+    display: flex;
+    align-items: center;
+}
 
 .timeline {
   position: relative;
