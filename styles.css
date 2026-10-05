@@ -1,5 +1,5 @@
 /* ----------------- Class CSS ----------------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .about{
     width:400px;
     margin: auto;
@@ -35,7 +35,7 @@
 
 * {
     color: #FFFFFF;
-    font-family: 'Courier New', Courier;
+    font-family: 'Montserrat', Courier;
 }
 
 .nav-menu-item{               /* navbar link text properties */
@@ -134,4 +134,9 @@
 .frame {
     display: flex;
     align-items: center;
+    
+}
+.mech-text {
+    font-family: 'Senerata';
+    src: url('downloads/serenata/Senerata.ttf') format('truetype');
 }
