@@ -38,7 +38,7 @@
                         <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing-->
                             <li class="nav-itm">
                                 <a href="authors.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">About Us</a>
+                                    class="nav-link hover-underline-animation nav-menu-item">Authors</a>
                             </li>
                             <li class="nav-itm">
                                 <a href="mechanical.html"
@@ -48,9 +48,15 @@
                                 <a href="programming.html"
                                     class="nav-link hover-underline-animation nav-menu-item">Programming</a>
                             </li>
-                            <li class="nav-itm">
+                            <li class="nav-itm dropdown">
                                 <a href="comp.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Competitions</a>
+                                    class="nav-link dropdown-toggle hover-underline-animation nav-menu-item">Competitions</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="fll.html">FLL</a>
+                                        <a class="dropdown-item" href="ftc.html">FTC</a>
+                                        <a class="dropdown-item" href="frc.html">FRC</a>
+                                        <a class="dropdown-item" href="recf.html">VEX RECF</a>
+                                        <a class="dropdown-item" href="grsf.html">VEX GRSF</a>                                    </div>                                
                             </li>
                         </ul>
                     </div>
@@ -58,23 +64,20 @@
 
             </nav>
         </header>
-
-        
-
         <section class="overview text-dark p-2 text-left"> <!-- Overview -->
             <div class="container">
                 <div class="text-center">
                     <h1>Mechanical Aspects of Robotics</h1>
                 </div>
 
-                <br><br>
+                
                 <div class="row">
-                    <div class="col-sm-4 p-3">
+                    <div class="frame col-sm-4 p-3">
                             <img src="img/generic-robot-1.jpg" alt="Water Temperature Graph" class="img-fluid">
                     </div>
-                    <div class="col-sm-8 p-3">
+                    <div class="frame col-sm-8 p-3">
                             
-                        <p class="lead overview-font overview-left-padding highlighter">
+                        <p class="mech-text lead overview-font overview-left-padding highlighter">
                                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
                                 lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
                                 Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
@@ -93,15 +96,23 @@
                             Durability  
                         </button>
                         <div class="collapse framework" id="framework-collapse">
-                            
-                            <p class="lead overview-font overview-left-padding highlighter">
+                            <div class="row">
+                                <div class="frame col sm-4 p-3">
+                                    <img src="img/frame-robot.jpg" alt="Frame of Robot" class="img-fluid">
+                                </div>
+                                <div class="frame col-sm-8 p-3">    
+                                    <p class="lead overview-font overview-left-padding highlighter">
                                 The durability of the robot is very important to the overall design. 
                                 The engineers need to make sure that the robot can withstand the force that
                                 they might need to carry. For robots in real life, material selection is very important to durability. 
                                 Engineers need to find the material that is not only strong but also cost effective. 
                                 For VEX robotics, engineers need to find the right VEX parts that will ensure
                                 maximum structual integrity in the design. 
-                            </p>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            
                         </div>
                     </div>
                     <br>    
@@ -110,14 +121,22 @@
                             Precision
                         </button>
                         <div class="collapse joints" id="joints-collapse">
-                            <p class="lead overview-font overview-left-padding highlighter">
-                                lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
-                                lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
-                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                eget nunc.
-                                Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
-                                eget nunc.
-                            </p>
+                            <div class="row">
+                                <div class="frame col sm-4 p-3">
+                                    <img src="img/frame-robot.jpg" alt="Frame of Robot" class="img-fluid">
+                                </div>
+                                <div class="frame col-sm-8 p-3">    
+                                    <p class="lead overview-font overview-left-padding highlighter">
+                                        lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec tincidunt
+                                        lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc eget nunc.
+                                        Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                        eget nunc.
+                                        Sed euismod, nisl nec tincidunt lacinia, nunc nisl aliquam nunc, eget aliquam nisl nunc
+                                        eget nunc.
+                                    </p>
+                                </div>
+                                
+                            </div>
                         </div>
                     </div>
                     <br>
@@ -152,6 +171,7 @@
                             </p>
                         </div>
                     </div>   
+                    <br>
                     
                 
 
