@@ -136,5 +136,10 @@
     align-items: center;
     
 }
-
-
+.robot-falling {
+    width: 120%;
+    height: auto;
+}
+.durability {
+    font-size: 1.5rem;
+}
