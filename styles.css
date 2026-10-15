@@ -2,13 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 .about{
     width:400px;
+    height: 550px;
     margin: auto;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease;
+    background-color:#e2e2e2;
 }
-
+.about:hover{
+    box-shadow: 0 0 50px 10px black;
+}
 .about-team{
     color:rgb(152, 149, 149);
 }
+.about a{
+    background-color:#626569;
+    border-color: black;
 
+}
+.about a:hover{
+    background-color:rgb(52, 52, 52);
+    border-color: black;
+}
 .authors{
     background-color: #dbe3e7;
 }
@@ -143,5 +157,67 @@
 .durability {
     font-size: 1.5rem;
 }
+.index-gif-robot {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+.shadow-command {
+    position: relative;
+    
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    
+    box-shadow: none;
+    transition: box-shadow 0.3s ease;
+}
+.gif-robot {
+    width: 1000px;
+
+}
+.shadow-command:hover {
+    box-shadow: 0 0 50px 10px black;
+}
+
+.shadow-command .index-gif-robot img {
+    display: block;
+    
+    width: 300%;
+    height: auto;
+}
+.shadow-command img {
+    display: block;
+    
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    text-align: center;
+    z-index: 1;
+
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.shadow-command:hover .caption {
+    opacity: 1;
+}
+
+.card .about p {
+    color: black;
+}
+
 
 
