@@ -9,10 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -20,120 +18,225 @@
 </head>
 
 <body class="body">
-        <header>
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
-                <div class="container"> <!-- Website brand -->
-                    <a href="#" class="navbar-brand">
-                        <img src="img/logo.png" alt="Water Logo" class="d-inline-block align-text-top w-50">
-                    </a>
+    <header>
+        <!-- Nav bar expands on large screens and collapses on smaller screens -->
+        <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
+            <div class="container">
 
-                    <!-- Hamburger Icon-->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <!-- Display the site logo; clicking it returns to the top -->
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo.png" alt="Gear Logo" class="d-inline-block align-text-top w-50">
+                </a>
 
-                    <!-- Collapsible navbar menu with custom hover underline CSS animation -->
-                    <div class="collapse navbar-collapse" id="navmenu"> <!-- Links to Hamburger -->
-                        <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing-->
-                            <li class="nav-itm">
-                                <a href="authors.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Authors</a>
-                            </li>
-                            <li class="nav-itm">
-                                <a href="mechanical.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Mechanical</a>
-                            </li>
-                            <li class="nav-itm">
-                                <a href="programming.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Programming</a>
-                            </li>
-                            <li class="nav-itm dropdown">
-                                <a href="comp.html"
-                                    class="nav-link dropdown-toggle hover-underline-animation nav-menu-item">Competitions</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="fll.html">FLL</a>
-                                        <a class="dropdown-item" href="ftc.html">FTC</a>
-                                        <a class="dropdown-item" href="frc.html">FRC</a>
-                                        <a class="dropdown-item" href="recf.html">VEX RECF</a>
-                                        <a class="dropdown-item" href="grsf.html">VEX GRSF</a>                                    </div>                                
-                            </li>
-                        </ul>
-                    </div>
+                <!-- This button opens and closes the menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Group the navigation links together -->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-itm">
+                            <a href="authors.html" class="nav-link hover-underline-animation nav-menu-item">Authors</a>
+                        </li>
+                        <li class="nav-itm">
+                            <a href="mechanical.html"
+                                class="nav-link hover-underline-animation nav-menu-item">Mechanical</a>
+                        </li>
+                        <li class="nav-itm">
+                            <a href="programming.html"
+                                class="nav-link hover-underline-animation nav-menu-item">Programming</a>
+                        </li>
+
+                        <!-- Link to the comparison page and group the competition links -->
+                        <li class="nav-itm dropdown">
+                            <a href="comp.html"
+                                class="nav-link dropdown-toggle hover-underline-animation nav-menu-item">Competitions</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="fll.html">FLL</a>
+                                <a class="dropdown-item" href="ftc.html">FTC</a>
+                                <a class="dropdown-item" href="frc.html">FRC</a>
+                                <a class="dropdown-item" href="recf.html">VEX RECF</a>
+                                <a class="dropdown-item" href="grsf.html">VEX GRSF</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
-    <div class="container-fluid p-0"> <!-- Container for the entire page -->
-        <section class="overview text-dark p-2 text-left"> <!-- Overview -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Container for the main page content -->
+    <div class="container-fluid p-0">
+        <section class="overview text-dark p-2 text-left">
+
+            <!-- Page header -->
             <div class="text-center">
                 <h1 class="display-4">Competitive Robotics</h1>
-                <p class="lead">An overview of competitive robotics, including mechanical design, programming, and competitions.</p>
+                <p class="lead">An overview of competitive robotics, including mechanical design, programming, and
+                    competitions.</p>
             </div>
             <br>
-            
+
+            <!-- Robot image & caption -->
             <div class="col-md-12">
                 <div class="row">
-                    <div class="shadow-command gif-robot">   
-                        <img src="img/robotpicfront.jpeg" alt="Robotics picture" class="index-gif-robot img-fluid col-md-6">
+                    <div class="shadow-command gif-robot">
+                        <img src="img/robotpicfront.jpeg" alt="Robotics picture"
+                            class="index-gif-robot img-fluid col-md-6">
                         <div class="caption">This shows a robot in motion at the FIRST robotics competition (FRC).</div>
                     </div>
                 </div>
             </div>
             <br>
-            <div class="text highlighter">
-                <p>lorum ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <!-- Why students participate -->
+            <div class="text highlighter text-center">
+                <h2 class="text-center">Why Compete in Robotics?</h2>
+                <p>
+                    Robotics competitions give students a chance to get hands on
+                    experience, learn about robotics, and apply this knowledge
+                    in a team setting that promotes collaboration. Teams design,
+                    build, and program robots to solve various challenges. Throughout
+                    the process, students learn to innovate and solve problems.
+                </p>
+                <p>
+                    Competing also builds teamwork and communication skills.
+                    Members divide responsibilities, communicate their ideas, and work
+                    together under deadlines. Students join to explore engineering
+                    and programming, and can meet people with similar interests.
+                    The experience can also help them discover a possible passion/field.
+                </p>
             </div>
-            
-            <div class="container-lg min-vh-10">  
+            <br>
+            <hr>
+
+            <!-- Three stages of robot pipeline -->
+            <div class="text-center">
+                <h2>How a Competition Robot Works</h2>
+                <p class="lead">
+                    A robot connects information from sensors, instructions from code,
+                    and movements from mechanical parts to complete specific tasks.
+                </p>
+            </div>
+
+            <div class="row p-3">
+                <!-- Explain sensor readings and driver input -->
+                <div class="col-sm-4">
+                    <div class="h-100 p-4 bg-light rounded">
+                        <h4>1. Receive Information</h4>
+                        <p>
+                            Sensors measure things such as distance, wheel rotation,
+                            or direction. During driver controlled periods, the robot
+                            can also receive commands from a handheld controller.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Explain how the robot processes information using code -->
+                <div class="col-sm-4">
+                    <div class="h-100 p-4 bg-light rounded">
+                        <h4>2. Run the Code</h4>
+                        <p>
+                            The robot's computer runs instructions written by the
+                            team prior to the competition. The code uses the sensor
+                            readings/driver commands to determine what the robot
+                            should do. These instructions are sent to the brain and
+                            converted into electrical signals
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Explain how motors and mechanical parts produce movement -->
+                <div class="col-sm-4">
+                    <div class="h-100 p-4 bg-light rounded">
+                        <h3>3. Move the Mechanisms</h3>
+                        <p>
+                            Motors turn the electrical signals sent by the brain
+                            into movement. Wheels, gears, arms, and other mechanisms
+                            use that movement to drive the robot and interact with game objects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Compare driver controlled and autonomous movements -->
+            <div class="row p-3">
+                <div class="col-sm-6">
+                    <h3>Driver Controlled Movement</h3>
+                    <p>
+                        A person on the team sends commands through a controller
+                        while watching the match. The robot's code then translates
+                        those commands into actions.
+                    </p>
+                </div>
+
+                <div class="col-sm-6">
+                    <h3>Autonomous Movement</h3>
+                    <p>
+                        The robot follows programmed instructions without live
+                        driver input. It uses sensor readings to adjust its
+                        actions as it completes a task.
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Introduce the three main topics and link to their pages -->
+            <div class="container-lg min-vh-10">
                 <div class="row">
+                    <!-- Mechanical design card: image, summary, and page link -->
                     <div class="frame col-sm-4 p-3">
                         <div class="card about">
                             <img src="img/gearimagegeneric.jpeg" alt="gears" class="card-img-top">
                             <div class="card-body">
                                 <h4 class="card-title">Mechanical Aspects of Robotics</h4>
-                                
-                                <h6> Mechanics are a very important part of competitive robotics. It 
-                                    is important to understand the mechanical aspects of robotics, such as 
-                                    the design of the robot, the materials used, and the mechanical systems 
-                                    that make the robot move. 
+
+                                <h6> Mechanics are a very important part of competitive robotics. It
+                                    is important to understand the mechanical aspects of robotics, such as
+                                    the design of the robot, the materials used, and the mechanical systems
+                                    that make the robot move.
                                 </h6>
                                 <a href="mechanical.html" class="index-btn btn btn-primary">Learn More</a>
-
                             </div>
-
                         </div>
                     </div>
+
+                    <!-- Programming card: image, summary, and page link -->
                     <div class="frame col-sm-4 p-3">
                         <div class="card about">
                             <img src="img/binarythingy.webp" alt="binary code" class="card-img-top">
                             <div class="card-body">
                                 <h4 class="card-title">Programming Aspect of Robotics</h4>
                                 <br>
-                                <h6> Programming is also a crucial aspect of robotics. It involves writing code to control the robot's behavior and functionality.
-                                    Without correct code, a robot cannot do the tasks the engineer wants the robot to do.
+                                <h6> Programming is also a crucial aspect of robotics. It involves writing code to
+                                    control the robot's behavior and functionality.
+                                    Without correct code, a robot cannot do the tasks the engineer wants the robot to
+                                    do.
                                 </h6>
                                 <br>
-                                
+
                                 <a href="programming.html" class="index-btn btn btn-primary">Learn More</a>
-
                             </div>
-
                         </div>
                     </div>
+
+                    <!-- Competitions card: image, summary, and comparison page link -->
                     <div class="frame col-sm-4 p-3">
                         <div class="card about">
                             <img src="img/compimageforindex.webp" alt="comp image" class="card-img-top">
                             <div class="card-body">
                                 <h4 class="card-title">Competitions</h4>
-                                
-                                <h6> Competitions are a great way to showcase your robotics skills and compete against other teams. 
-                                    Many students who aspire to go into a field relating to robotics do a lot of robotics competitions.
+
+                                <h6> Competitions are a great way to showcase your robotics skills and compete against
+                                    other teams.
+                                    Many students who aspire to go into a field relating to robotics do a lot of
+                                    robotics competitions.
                                     5 competitions will be outlined on this site, FLL, FTC, FRC, VEX RECF, and VEX GRSF.
                                 </h6>
                                 <a href="comp.html" class="index-btn btn btn-primary">Learn More</a>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -141,18 +244,15 @@
         </section>
     </div>
 </body>
-    <!-- Footer -->
-    <footer class="p-5 footer text-light text-center position-relative">
-        <div class="container">
-            <p class="lead footer">Copyright &copy; SE 2026 Competitive Robotics</p>
-            <a href="#" class="position-absolute bottom-0 end-0 p-5">
-                <i class="bi bi-arrow-up-circle h2 icon-white"></i>
-            </a>
-        </div>
-    </footer>
 
+<!-- Display copyright information and a link back to the top of the page. -->
+<footer class="p-5 footer text-light text-center position-relative">
+    <div class="container">
+        <p class="lead footer">Copyright &copy; SE 2026 Competitive Robotics</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+        </a>
     </div>
-
-
+</footer>
 
 </html>
