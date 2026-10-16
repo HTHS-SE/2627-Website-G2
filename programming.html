@@ -21,169 +21,217 @@
 
 <body class="body">
     <header>
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
-                <div class="container"> <!-- Website brand -->
-                    <a href="index.html" class="navbar-brand">
-                        <img src="img/logo.png" alt="Gear Logo" class="d-inline-block align-text-top w-50">
-                    </a>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
+            <div class="container"> <!-- Website brand -->
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" alt="Gear Logo" class="d-inline-block align-text-top w-50">
+                </a>
 
-                    <!-- Hamburger Icon-->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <!-- Hamburger Icon-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <!-- Collapsible navbar menu with custom hover underline CSS animation -->
-                    <div class="collapse navbar-collapse" id="navmenu"> <!-- Links to Hamburger -->
-                        <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing-->
-                            <li class="nav-itm">
-                                <a href="authors.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Authors</a>
-                            </li>
-                            <li class="nav-itm">
-                                <a href="mechanical.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Mechanical</a>
-                            </li>
-                            <li class="nav-itm">
-                                <a href="programming.html"
-                                    class="nav-link hover-underline-animation nav-menu-item">Programming</a>
-                            </li>
-                            <li class="nav-itm dropdown">
-                                <a href="comp.html"
-                                    class="nav-link dropdown-toggle hover-underline-animation nav-menu-item">Competitions</a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="fll.html">FLL</a>
-                                        <a class="dropdown-item" href="ftc.html">FTC</a>
-                                        <a class="dropdown-item" href="frc.html">FRC</a>
-                                        <a class="dropdown-item" href="recf.html">VEX RECF</a>
-                                        <a class="dropdown-item" href="grsf.html">VEX GRSF</a>                                    </div>                                
-                            </li>
-                        </ul>
-                    </div>
+                <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+                <div class="collapse navbar-collapse" id="navmenu"> <!-- Links to Hamburger -->
+                    <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing-->
+                        <li class="nav-itm">
+                            <a href="authors.html" class="nav-link hover-underline-animation nav-menu-item">Authors</a>
+                        </li>
+                        <li class="nav-itm">
+                            <a href="mechanical.html"
+                                class="nav-link hover-underline-animation nav-menu-item">Mechanical</a>
+                        </li>
+                        <li class="nav-itm">
+                            <a href="programming.html"
+                                class="nav-link hover-underline-animation nav-menu-item">Programming</a>
+                        </li>
+                        <li class="nav-itm dropdown">
+                            <a href="comp.html"
+                                class="nav-link dropdown-toggle hover-underline-animation nav-menu-item">Competitions</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="fll.html">FLL</a>
+                                <a class="dropdown-item" href="ftc.html">FTC</a>
+                                <a class="dropdown-item" href="frc.html">FRC</a>
+                                <a class="dropdown-item" href="recf.html">VEX RECF</a>
+                                <a class="dropdown-item" href="grsf.html">VEX GRSF</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-
-            </nav>
-        </header>
-        <section class="overview text-dark p-2 text-left"> <!-- Overview -->
-            <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4 p-3">
-                            <img src="img/code.jpg" alt="Code falling down the screen" class="img-fluid">
-                        </div>
-                        <div class="col-sm-8 p-3">
-                            <h1 class="overview-left-padding">Background</h1>
-                            <p class="lead overview-font overview-left-padding highlighter">
-                                "Code is the brain of the robot in robotics. The code controls
-                                every mechanical movement and action of the robot. Different
-                                coding languages are used each in each competition, with each
-                                one having its pros and cons. The main three are python, C++, 
-                                and Java. Python is best for simplicity/readability, C++ is best
-                                for speed/performance, and Java is a good middle ground for both."
-                            </p>
-                        </div>
-                    </div>
-
-                    <br>
-                    <div class="text-center ">
-                        <h1>Coding Languages</h1>
-                        <h2>Different coding languages used in different competitions</h2>
-                    </div>
-                    <hr><br> 
-
-                    <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
-                        <thead>
-                            <tr class="table-primary">
-                                <th></th>
-                                <th><h3>C++</h3></th>
-                                <th><h3>Java</h3></th>
-                                <th><h3>Python</h3></th>
-                            </tr>
-                        </thead>
-                        <tbody class="table-group-divider">
-                            <!-- Row 1-->
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary"><h3>FRC</h3></th>
-                                <td class="text-center"><h3>✓</h3></td>
-                                <td class="text-center"><h3>✓</h3></td>
-                                <td class="text-center"><h3>✓</h3></td>
-                            </tr>
-                            <!-- Row 2-->
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary"><h3>FTC</h3></th>
-                                <td class="text-center"><h3>✗</h3></td>
-                                <td class="text-center"><h3>✓</h3></td>
-                                <td class="text-center"><h3>✗</h3></td>
-                            </tr>
-                            <!-- Row 3-->
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary"><h3>FLL</h3></th>
-                                <td class="text-center"><h3>✗</h3></td>
-                                <td class="text-center"><h3>✗</h3></td>
-                                <td class="text-center"><h3>✓</h3></td>
-                            </tr>
-                            <!-- Row 4-->
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary"><h3>VEX GRSF</h3></th>
-                                <td class="text-center"><h3>✓</h3></td>
-                                <td class="text-center"><h3>✗</h3></td>
-                                <td class="text-center"><h3>✓</h3></td>
-                            </tr>
-                            <!-- Row 5-->
-                            <tr class="align-middle">
-                                <th scope="row" class="table-secondary"><h3>VEX RECF</h3></th>
-                                <td class="text-center"><h3>✓</h3></td>
-                                <td class="text-center"><h3>✗</h3></td>
-                                <td class="text-center"><h3>✓</h3></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <br><hr><br>
-
-                    <div class="text-center">
-                        <h1>PID</h1>
-                    </div>
-
-                    <div class="row">
-                        <p><img src="img/PID.png" alt="PID Diagram" class="img-fluid"></p>
-                    </div>
-
-                    <div class="row">
-                        <p class="highlighter"> PID controllers are used in almost every robotic system. They 
-                            are used to control the behavior of the system and allow for 
-                            precise movements from the initial heading to the desired course. 
-                            PID stands for Proportional, Integral, and Derivative. PID's measure
-                            differences between the desired and actual values of a system to find
-                            an error value. It then combines the three corrective actions to produce
-                            a fix. It applies this fix and starts the process again. The proportional
-                            fix multiplies the error by a constant to determine the corrective action.
-                            The integral fix accumulates past errors to eliminate steady-state error
-                            The derivative fix predicts future errors to improve system stability.
-                        </p>
-                        <br>
-                    </div>
-                    
-                    <hr><br>
-
-                    <div class="text-center">
-                        <h1>Path following</h1>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6 p-3">
-                            <img src="img/path.jpeg" alt="Path Following Software" class="img-fluid">
-                        </div>
-                        <div class="col-sm-6 p-3">
-                            <p class="lead overview-font overview-left-padding highlighter">Path following software's work by taking
-                                a predefined path and adjusting the robot's movements to stay on the course. To stay on course
-                                the softwares monitors the robot's position and makes adjustments using PIDs. The software
-                                controls the steering, speed, direction and other factors to perform percise movements.
-                                The software loads the map (path) as a set of ponits and uses them to guide the robot along 
-                                the desired trajectory.
-                            </p>
-                        </div>
-                    </div>
             </div>
-    </div>
+
+        </nav>
+    </header>
+    <section class="overview text-dark p-2 text-left"> <!-- Overview -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 p-3">
+                    <img src="img/code.jpg" alt="Code falling down the screen" class="img-fluid">
+                </div>
+                <div class="col-sm-8 p-3">
+                    <h1 class="overview-left-padding">Background</h1>
+                    <p class="lead overview-font overview-left-padding highlighter">
+                        "Code is the brain of the robot in robotics. The code controls
+                        every mechanical movement and action of the robot. Different
+                        coding languages are used each in each competition, with each
+                        one having its pros and cons. The main three are python, C++,
+                        and Java. Python is best for simplicity/readability, C++ is best
+                        for speed/performance, and Java is a good middle ground for both."
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <div class="text-center ">
+                <h1>Coding Languages</h1>
+                <h2>Different coding languages used in different competitions</h2>
+            </div>
+            <hr><br>
+
+            <table class="table table-hover text-center table-light table-bordered border-dark-subtle">
+                <thead>
+                    <tr class="table-primary">
+                        <th></th>
+                        <th>
+                            <h3>C++</h3>
+                        </th>
+                        <th>
+                            <h3>Java</h3>
+                        </th>
+                        <th>
+                            <h3>Python</h3>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <!-- Row 1-->
+                    <tr class="align-middle">
+                        <th scope="row" class="table-secondary">
+                            <h3>FRC</h3>
+                        </th>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                    </tr>
+                    <!-- Row 2-->
+                    <tr class="align-middle">
+                        <th scope="row" class="table-secondary">
+                            <h3>FTC</h3>
+                        </th>
+                        <td class="text-center">
+                            <h3>✗</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✗</h3>
+                        </td>
+                    </tr>
+                    <!-- Row 3-->
+                    <tr class="align-middle">
+                        <th scope="row" class="table-secondary">
+                            <h3>FLL</h3>
+                        </th>
+                        <td class="text-center">
+                            <h3>✗</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✗</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                    </tr>
+                    <!-- Row 4-->
+                    <tr class="align-middle">
+                        <th scope="row" class="table-secondary">
+                            <h3>VEX GRSF</h3>
+                        </th>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✗</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                    </tr>
+                    <!-- Row 5-->
+                    <tr class="align-middle">
+                        <th scope="row" class="table-secondary">
+                            <h3>VEX RECF</h3>
+                        </th>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✗</h3>
+                        </td>
+                        <td class="text-center">
+                            <h3>✓</h3>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <hr><br>
+
+            <div class="text-center">
+                <h1>PID</h1>
+            </div>
+
+            <div class="row">
+                <p><img src="img/PID.png" alt="PID Diagram" class="img-fluid"></p>
+            </div>
+
+            <div class="row">
+                <p class="highlighter"> PID controllers are used in almost every robotic system. They
+                    are used to control the behavior of the system and allow for
+                    precise movements from the initial heading to the desired course.
+                    PID stands for Proportional, Integral, and Derivative. PID's measure
+                    differences between the desired and actual values of a system to find
+                    an error value. It then combines the three corrective actions to produce
+                    a fix. It applies this fix and starts the process again. The proportional
+                    fix multiplies the error by a constant to determine the corrective action.
+                    The integral fix accumulates past errors to eliminate steady-state error
+                    The derivative fix predicts future errors to improve system stability.
+                </p>
+                <br>
+            </div>
+
+            <hr><br>
+
+            <div class="text-center">
+                <h1>Path following</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 p-3">
+                    <img src="img/path.jpeg" alt="Path Following Software" class="img-fluid">
+                </div>
+                <div class="col-sm-6 p-3">
+                    <p class="lead overview-font overview-left-padding highlighter">Path following software's work by
+                        taking
+                        a predefined path and adjusting the robot's movements to stay on the course. To stay on course
+                        the softwares monitors the robot's position and makes adjustments using PIDs. The software
+                        controls the steering, speed, direction and other factors to perform percise movements.
+                        The software loads the map (path) as a set of ponits and uses them to guide the robot along
+                        the desired trajectory.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
 
     <!-- Footer and a link back to the top of the page -->
