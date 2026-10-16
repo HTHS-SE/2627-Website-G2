@@ -90,17 +90,18 @@
     padding-left: 20px;
 }
 
-/*Add padding to the left of overview*/
-
+/*Add padding to the right of overview*/
 .overview-right-padding {
     padding-right: 20px;
 }
 
+/*procedure background color and padding*/
 .procedure {
     background-color: #dbe3e7;
     padding: 1px;
 }
 
+/*Showcase background color*/
 .showcase {
     background-color: #8fa3ab;
     /*#0096c7*/
@@ -142,6 +143,8 @@
     /*transform-origin: bottom left;*/
 }
 
+/* -----------------Highlight Animation CSS -----------------*/
+
 .highlighter {
     background-image: linear-gradient(#97999b 100%, #626569 100%);
     background-repeat: no-repeat;
@@ -154,6 +157,8 @@
 .highlighter:hover {
     background-size: 100% 100%;
 }
+
+/* -----------------Mechanical.html dropdown CSS -----------------*/
 
 .navbar .nav-itm.dropdown:hover .dropdown-menu {
     display: block;
