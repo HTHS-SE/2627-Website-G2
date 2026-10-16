@@ -19,11 +19,11 @@
 
 <body class="body">
     <header>
-        <!-- Nav bar expands on large screens and collapses on smaller screens -->
+        <!-- Navbar -->
         <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
             <div class="container">
 
-                <!-- Display the site logo; clicking it returns to the top -->
+                <!-- Hamburger Icon -->
                 <a href="#" class="navbar-brand">
                     <img src="img/logo.png" alt="Gear Logo" class="d-inline-block align-text-top w-50">
                 </a>
@@ -33,9 +33,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Group the navigation links together -->
-                <div class="collapse navbar-collapse" id="navmenu">
-                    <ul class="navbar-nav ms-auto">
+                <!-- Collapsible navbar menu with custom hover underline CSS animation -->
+                <div class="collapse navbar-collapse" id="navmenu"> <!-- Links to Hamburger -->
+                    <ul class="navbar-nav ms-auto"> <!-- ms-auto provides auto margin spacing-->
                         <li class="nav-itm">
                             <a href="authors.html" class="nav-link hover-underline-animation nav-menu-item">Authors</a>
                         </li>
@@ -186,7 +186,7 @@
             <!-- Introduce the three main topics and link to their pages -->
             <div class="container-lg min-vh-10">
                 <div class="row">
-                    <!-- Mechanical design card: image, summary, and page link -->
+                    <!-- Mechanical design card -->
                     <div class="frame col-sm-4 p-3">
                         <div class="card about">
                             <img src="img/gearimagegeneric.jpeg" alt="gears" class="card-img-top">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
 
-                    <!-- Programming card: image, summary, and page link -->
+                    <!-- Programming card -->
                     <div class="frame col-sm-4 p-3">
                         <div class="card about">
                             <img src="img/binarythingy.webp" alt="binary code" class="card-img-top">
@@ -222,7 +222,7 @@
                         </div>
                     </div>
 
-                    <!-- Competitions card: image, summary, and comparison page link -->
+                    <!-- Competitions card -->
                     <div class="frame col-sm-4 p-3">
                         <div class="card about">
                             <img src="img/compimageforindex.webp" alt="comp image" class="card-img-top">
@@ -245,7 +245,7 @@
     </div>
 </body>
 
-<!-- Display copyright information and a link back to the top of the page. -->
+<!-- Footer and a link back to the top of the page -->
 <footer class="p-5 footer text-light text-center position-relative">
     <div class="container">
         <p class="lead footer">Copyright &copy; SE 2026 Competitive Robotics</p>
