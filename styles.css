@@ -170,14 +170,14 @@
 .durability {
     font-size: 1.5rem;
 }
-
+/* ----------------- CSS for the images with shadows ----------------- */
 .index-gif-robot {
     display: block;
     margin: 0 auto;
     width: 80%;
     height: auto;
 }
-
+/* ----------------- CSS for the shadows and caption on the shadows ----------------- */
 .shadow-command {
     position: relative;
 
@@ -187,7 +187,7 @@
     vertical-align: top;
 
     box-shadow: none;
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;  /* Smooth transition for box-shadow */
 }
 
 .gif-robot {
@@ -212,7 +212,7 @@
     width: 100%;
     height: auto;
 }
-
+/* ----------------- CSS for the caption on the shadows ----------------- */
 .caption {
     position: absolute;
     top: 0;
