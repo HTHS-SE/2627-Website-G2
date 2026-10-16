@@ -1,6 +1,8 @@
 /* ----------------- Class CSS ----------------- */
+/*Load the Montserrat font*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/*Set the team and home page cards*/
 .about {
     width: 400px;
     height: 550px;
@@ -10,37 +12,45 @@
     background-color: #e2e2e2;
 }
 
+/*Shadow when card is hovered over*/
 .about:hover {
     box-shadow: 0 0 50px 10px black;
 }
 
+/*Set the team heading color*/
 .about-team {
     color: rgb(0, 0, 0);
 }
 
+/*Background and border color of card links*/
 .about a {
     background-color: #626569;
     border-color: black;
 
 }
 
+/*Darken card when hovered over*/
 .about a:hover {
     background-color: rgb(52, 52, 52);
     border-color: black;
 }
 
+/*Authors background color*/
 .authors {
     background-color: #dbe3e7;
 }
 
+/*Website background color*/
 .body {
     background-color: rgb(220, 218, 218);
 }
 
+/*Chart background color*/
 .chartjs-sample {
     background-color: #8fa3ab;
 }
 
+/*Footer background and text color*/
 .footer {
     background-color: #000000;
     color: #FFFFFF
@@ -56,6 +66,7 @@
     background-color: #000000;
 }
 
+/*Default text color and font*/
 * {
     color: #000000;
     font-family: 'Montserrat', Courier;
@@ -69,13 +80,17 @@
     color: #FFFFFF
 }
 
+/*Overview background color*/
 .overview {
     background-color: rgb(220, 220, 220);
 }
 
+/*Add padding to the left of overview*/
 .overview-left-padding {
     padding-left: 20px;
 }
+
+/*Add padding to the left of overview*/
 
 .overview-right-padding {
     padding-right: 20px;
